@@ -10,7 +10,3 @@ tests.o: tests.cpp doctest.h MyVector.h
 
 clean:
 	rm -f main.o tests.o main tests
-
-help:
-	@echo  make main : make executable named main
-	@echo make tests : make test suite named tests
